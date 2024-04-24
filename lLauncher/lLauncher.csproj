@@ -94,5 +94,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Buttons\ToolBar\closeButton_hover.png" />
+    <Resource Include="Assets\Buttons\ToolBar\minimizeButton_hover.png" />
+    <Resource Include="Assets\Buttons\ToolBar\resizeButton_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Buttons\ToolBar\closeButton.png" />
+    <Resource Include="Assets\Buttons\ToolBar\minimizeButton.png" />
+    <Resource Include="Assets\Buttons\ToolBar\resizeButton.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
